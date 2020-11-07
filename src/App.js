@@ -15,8 +15,17 @@ class App extends Component {
   // due to being event Handler and not using actively (over&over)!
   switchNameHandler = () => {
     // we do this to see button works if clicked!
-    console.log('Was clicked');
+    //console.log('Was clicked');
     // to see this, in browser go Inspect/Console!
+    
+    // DONT DO THIS: this.state.persons[0].name = 'Güler';
+    this.setState({
+      persons: [
+        { name: 'Mehmet', age: 61 },
+        { name: 'Ebru', age: 30 },
+        { name: 'Kübranur', age: 24 }
+      ]
+    })
   }
   
 
