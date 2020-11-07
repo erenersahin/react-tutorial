@@ -11,13 +11,21 @@ class App extends Component {
     ]
   }
 
+  // switchName - Handler: we add Handler to name of method 
+  // due to being event Handler and not using actively (over&over)!
+  switchNameHandler = () => {
+    // we do this to see button works if clicked!
+    console.log('Was clicked');
+    // to see this, in browser go Inspect/Console!
+  }
+  
 
   render() {
     return (
       <div className="App">
        <h1>Hi, I'm a React App</h1>
        <p>This is really working!</p>
-       <button>Switch Name</button>
+       <button onClick={this.switchNameHandler}>Switch Name</button>
         <Person name={this.state.persons[0].name} age={this.state.persons[0].age}/>
         <Person name={this.state.persons[1].name} age={this.state.persons[1].age}>My Hobbies: Music Production</Person>
         <Person name={this.state.persons[2].name} age={this.state.persons[2].age}/>
