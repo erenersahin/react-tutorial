@@ -30,8 +30,18 @@ class App extends Component {
     })
   }
   
+  nameChangedHandler = (event) => {
+    this.setState({
+      persons: [
+        { name: 'Gül', age: 56 },
+        { name: event.target.value, age: 25 },
+        { name: 'Kübra', age: 24 }
+      ],
+    })
+  }
 
   render() {
+
     return (
       <div className="App">
        <h1>Hi, I'm a React App</h1>
@@ -44,8 +54,10 @@ class App extends Component {
         <Person 
          name={this.state.persons[1].name} 
          age={this.state.persons[1].age}
-         click={this.switchNameHandler.bind(this, 'Ayşe')} >My Hobbies: Music Production</Person>
-         {/* if this line is clicked, first person's name is change to Ayşe! */}
+         // if this line is clicked, first person's name is change to Ayşe!
+         click={this.switchNameHandler.bind(this, 'Ayşe')}
+         changed={this.nameChangedHandler}>My Hobbies: Music Production</Person>
+         
         <Person 
          name={this.state.persons[2].name} 
          age={this.state.persons[2].age}/>
