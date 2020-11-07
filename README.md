@@ -1,17 +1,17 @@
 ## Guide to React
 
-npm-start == start project and run before coding!
+npm-start == start project and run before coding! <br/>
 
-package.json = dependencies and scripts
+package.json = dependencies and scripts <br/>
 
-node_modeles = all dependencies like virtualenv
+node_modeles = all dependencies like virtualenv <br/>
 
-public
-    index.html = our page // <div id = root> is important
-    beacuse react is mounted there
-src
-    index.js = refers 'root' in index.html above!
+public <br/>
+    index.html = our page // <div id = root> is important <br/>
+    beacuse react is mounted there <br/>
+src <br/>
+    index.js = refers 'root' in index.html above! <br/>
 
-Component
-    should render & return some HTML to DOM!
-    should contain one root element each!
+Component <br/>
+    should render & return some HTML to DOM! <br/>
+    should contain one root element each! <br/>
