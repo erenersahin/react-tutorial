@@ -36,6 +36,7 @@ Done! <br/>
 setState = special prop of Components! <br/>
 
 
-## Functional Components Specs
+## Functional Components Specs <br/>
+- useState = define desired prited values!
 
 
