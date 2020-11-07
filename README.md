@@ -7,7 +7,7 @@ package.json = dependencies and scripts <br/>
 node_modeles = all dependencies like virtualenv <br/>
 
 public <br/>
-    index.html = our page // <div id = root> is important <br/>
+    index.html = our page // <'div id = root'> is important <br/>
     beacuse react is mounted there <br/>
 src <br/>
     index.js = refers 'root' in index.html above! <br/>
