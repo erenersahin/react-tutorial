@@ -31,10 +31,11 @@ Done! <br/>
 - props have a children arg and, due to props.children an empty p element is created <br/>
 
 
-## Components Specs
-- if state wants to be changed, use setState
-setState = special prop of Components! 
+## class-based Components Specs <br/>
+- if state wants to be changed, use setState <br/>
+setState = special prop of Components! <br/>
 
 
+## Functional Components Specs
 
 
